@@ -8,7 +8,7 @@ p.setTimeStep(0.0001)       # this slows everything down, but let's be accurate.
 p.setRealTimeSimulation(0)  # we want to be faster than real time :)
 planeId = p.loadURDF("plane.urdf")
 
-robot = p.loadURDF("opera_description/urdf/opera_simple.urdf", [0, 0, .07])
+robot = p.loadURDF("opera_description/urdf/tao.urdf", [0, 0, .07])
 
 def forward(t,k):
     p.setJointMotorControl2(

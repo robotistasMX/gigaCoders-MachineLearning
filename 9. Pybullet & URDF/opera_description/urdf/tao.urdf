@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<robot name="tao">
+    <link name="base_link">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0">
+            <geometry>
+                <mesh filename="package://tao_description/models/base.dae">
+            </geometry>
+        </visual>
+    </link>
+
+    <link name="llanta1">
+        <visual>
+            <origin rpy="0 0 0" xyz="0 0 0">
+            <geometry>
+                <mesh filename="package://tao_description/models/llanta.dae">
+            </geometry>
+        </visual>
+    </link>
+
+    
+</robot>
